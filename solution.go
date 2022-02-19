@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println(CalcSquare(10.0, 3))
+	fmt.Println(CalcSquare(10.0, 5))
 }
 
 // Define custom int type to hold sides number and update CalcSquare signature by replacing #yourTypeNameHere#
