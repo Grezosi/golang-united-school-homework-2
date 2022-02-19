@@ -1,13 +1,6 @@
 package square
 
-import (
-	"fmt"
-	"math"
-)
-
-func main() {
-	fmt.Println(CalcSquare(10.0, 5))
-}
+import "math"
 
 // Define custom int type to hold sides number and update CalcSquare signature by replacing #yourTypeNameHere#
 
