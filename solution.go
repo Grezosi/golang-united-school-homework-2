@@ -1,4 +1,4 @@
-package main
+package square
 
 import (
 	"fmt"
@@ -28,6 +28,6 @@ func CalcSquare(sideLen float64, sidesNum int64) float64 {
 	}
 	return 0
 }
-func main() {
-	fmt.Println(CalcSquare(2, 0))
+func square() {
+	fmt.Println(CalcSquare(3, 0))
 }
